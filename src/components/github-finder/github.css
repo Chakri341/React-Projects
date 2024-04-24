@@ -1,0 +1,15 @@
+.input-container{
+margin:15px;
+padding:15px;
+}
+
+.img{
+    border-radius:50%;
+}
+.user-details{
+    display:flex;
+}
+
+.container{
+    border-radius:2px solid black;
+}

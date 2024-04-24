@@ -1,0 +1,38 @@
+.cont {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 400px; 
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: beige;
+    
+    margin-top:10%;
+  }
+  
+  .sub-cont {
+    display: flex;
+    margin-bottom: 25px;
+  }
+  
+  .input {
+    flex: 1;
+    padding: 10px;
+    border-radius: 3px;
+    font-size: 16px;
+    margin:2px;
+  }
+  
+  .btn-btn {
+    padding: 10px 20px;
+    border-radius: 3px;
+    background-color: skyblue;
+    font-size: 16px;
+    cursor: pointer;
+    margin:2px;
+  }
+  
+  .btn-btn:hover {
+    background-color:slateblue; 
+  }

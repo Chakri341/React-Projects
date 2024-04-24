@@ -1,0 +1,70 @@
+.slide-container {
+  position: relative;
+  width: 100%;
+  max-width: 60%;
+  margin: 0 auto;
+  overflow: hidden;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 50%;
+  padding: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.arrow:hover {
+  background-color: rgba(255, 255, 255, 1);
+}
+
+.arrow svg {
+  width: 30px;
+  height: 30px;
+  fill: #333;
+}
+
+.arrow-left {
+  left: 10px;
+}
+
+.arrow-right {
+  right: 10px;
+}
+
+.current-image {
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: opacity 0.5s ease;
+}
+
+.hide-current-image {
+  display: none;
+}
+
+.circle-indicators {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.current-indicator {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: #333;
+  margin: 0 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.inactive-indicator {
+  background-color: #ccc;
+}

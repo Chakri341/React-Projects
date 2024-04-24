@@ -1,0 +1,19 @@
+ *{
+    padding:0;
+    margin:0;
+ }
+
+
+ .tree-container{
+    background-color:skyblue;
+     height:100vh;
+     display:flex;
+     justify-content:center;
+}
+
+.tree{
+    margin-top:5%;
+}
+
+
+
